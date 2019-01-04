@@ -8,7 +8,7 @@ export default {
   data() {
       return {
           buttonText: "Go to Top", //inner text of button element
-          isActive: false, // status false for invisible on beginig
+          isActive: false, // status false for invisible on beginning
           scrollActivatePossition: 300, //possition of activate point from top in pixels
           scrollStep: 10, // step distance resolution for moving (speed contol variable)
           scrollTimeout: 1 // step time resolution in miliseconds (speed contol variable)
